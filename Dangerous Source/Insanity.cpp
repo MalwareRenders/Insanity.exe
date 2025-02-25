@@ -38,7 +38,8 @@ typedef struct {
 	FLOAT l;
 } HSL;
 
-namespace Colors {
+namespace Colors { 
+// Blud ain't N17Pro3426
 	HSL rgb2hsl(_RGBQUAD rgb) {
 		HSL hsl;
 
