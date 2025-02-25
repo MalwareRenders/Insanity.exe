@@ -1,2 +1,1 @@
-# Insanity.exe
-NEW MALWARE!!!! (comeback?)
+h
